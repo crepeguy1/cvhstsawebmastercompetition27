@@ -1,3 +1,9 @@
+h1 {
+  border: medium solid darkblue;
+  background: blue;
+  color: white;
+}
+
 nav ul {
   list-style-type: none; 
   margin: 0;
