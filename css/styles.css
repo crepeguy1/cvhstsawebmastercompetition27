@@ -5,6 +5,16 @@
     width: 100%;
 }
 
+.topOfPage a{
+    padding:20px;
+}
+
+.topOfPage img{
+    max-height: 50px;
+    height: auto;
+    width: auto;
+}
+
 nav ul {
   list-style-type: none; 
   margin: 0;
