@@ -1,3 +1,18 @@
+.topOfPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.topOfPage a{
+    padding:20px;
+}
+
+.topOfPage img{
+    max-height: 50px;
+    height: auto;
+    width: auto;
 h1 {
   border: medium solid darkblue;
   background: blue;
