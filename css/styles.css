@@ -1,3 +1,10 @@
+.topOfPage{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
 nav ul {
   list-style-type: none; 
   margin: 0;
