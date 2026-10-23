@@ -13,6 +13,19 @@
     max-height: 50px;
     height: auto;
     width: auto;
+    outline: 2px solid rgb(0, 26, 255);
+    border-radius: 10px;
+    border-bottom: 5px solid #0056ff;
+    border-right: 5px solid #0056ff;
+    
+     
+}
+
+
+
+.topOfPage img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
 }
 
 h1 {
@@ -23,6 +36,8 @@ h1 {
   padding-left: 20px; 
   padding-right: 105px; 
   border-bottom: 5px solid #0056ff;
+  border-right: 5px solid #0056ff;
+
 
 }
 
@@ -41,7 +56,11 @@ nav ul {
   margin: 0;
   padding: 0;
   display: flex;       
-  background-color: #0076ff;       
+  background-color: #0076ff;  
+  display: flex; 
+  justify-content: left; 
+  gap: 20px;  
+  
 }
 
 nav li:hover {
@@ -55,12 +74,22 @@ nav a {
   display:inline-block;
   transition: transform 0.2s ease;
   padding: 20px;
+  background: rgba(255,255,255,0.2); 
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255,255,255,0.3); 
+  border-bottom: 5px solid rgba(25, 0, 255, 0.5); /*Border bottoms are magical things*/
+  border-right: 5px solid rgba(25, 0, 255, 0.5); /*Border bottoms are magical things*/
 }
 
 nav a:hover {
   text-decoration: none;
   color: #000000;
   transform: scale(120%);
+}
+
+img {
+  border-radius: 40px;
+  border-bottom: 5px solid #0056ff;
 }
 
 
